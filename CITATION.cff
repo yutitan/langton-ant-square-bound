@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+type: software
+title: "大模型的小练习（三）：朗顿蚂蚁在 n×n 棋盘上的逃逸时间上界"
+version: "1.0.0"
+date-released: "2026-11-26"
+authors:
+  - name: "yutitan"
+repository-code: "https://github.com/yutitan/langton-ant-square-bound"
+url: "https://github.com/yutitan/langton-ant-square-bound"
+abstract: >-
+  An explicit escape-time bound for Langton's ant on n x n boards:
+  S(n) <= 730*(9/5)^n for every n >= 1. The proof is computer-assisted:
+  20 locally impossible heading fragments compress the history into a
+  108-state automaton, 171 rational gain inequalities are checked exactly,
+  and an analytic range bound gives the global constant. The repository
+  contains the verification programs, an independent audit script and a
+  full proof note.
+keywords:
+  - Langton's ant
+  - cellular automata
+  - escape time
+  - computer-assisted proof
+  - AI-assisted exploration
+license: MIT
+notes: >-
+  Series: 大模型的小练习（三） (LLM Exercises III); the first entry is
+  https://github.com/yutitan/wowii-conjecture-138 and the second is
+  https://github.com/yutitan/langton-ant-three-rows. Derived with GPT 6.2
+  Astra (OpenAI Codex, model gpt-6.2-astra) on 2026-11-26 and independently
+  verified with DeepSeek Harness. This is a public record of a personal
+  AI-assisted exploration and makes no priority claim. The comparison with
+  Etse (MFCS 2026) and Ke's preprint is as stated by the model and was not
+  independently checked.

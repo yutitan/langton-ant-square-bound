@@ -1,0 +1,21 @@
+{
+ "title": "大模型的小练习（三）：朗顿蚂蚁在 n×n 棋盘上的逃逸时间上界",
+ "description": "<p><strong>大模型的小练习（三）</strong>：朗顿蚂蚁在 n×n 棋盘上的逃逸时间上界。设 S(n) 为在 n×n 棋盘上，对所有初始染色、起点和朝向取最大值时，蚂蚁第一次走出棋盘所需的最多步数（计入走出那一步）。本记录给出 S(n) ≤ 730·(9/5)^n（n ≥ 1）。证明是计算机辅助的：20 个局部不可实现的禁行朝向片段把历史压成 108 个状态的自动机；171 条允许转移上核验一个有理数的局部增益不等式；再用解析的范围估计得到全局常数。全部有限部分由仓库中的程序用精确有理数核验，并由独立审计程序复查。已知精确值 S(1)=1, S(2)=6, S(3)=17。按题述，Etse（MFCS 2026）给出 (n+1)! 上界，Ke 的预印本给出 O(3^n)；本记录把正方形棋盘的上界收紧到 O(1.8^n)，n=100 时约 2.458×10^28。</p><p>English: Let S(n) be the maximum escape time of Langton's ant on an n×n board over all initial colourings and starting poses (the exiting step included). We record the bound S(n) ≤ 730·(9/5)^n for every n ≥ 1. The proof is computer-assisted: 20 locally impossible heading fragments compress the history into a 108-state automaton, 171 rational gain inequalities are checked exactly, and an analytic range bound gives the global constant. All finite parts are verified by the programs in the repository, and an independent audit script re-derives them. Series entry (一): https://github.com/yutitan/wowii-conjecture-138 ; entry (二): https://github.com/yutitan/langton-ant-three-rows . This repository is a public record of a personal AI-assisted exploration and makes no priority claim.</p>",
+ "creators": [
+  {
+   "name": "yutitan"
+  }
+ ],
+ "keywords": [
+  "Langton's ant",
+  "Langton 蚂蚁",
+  "cellular automata",
+  "escape time",
+  "computer-assisted proof",
+  "AI-assisted exploration"
+ ],
+ "license": "MIT",
+ "upload_type": "software",
+ "access_right": "open",
+ "language": "zho"
+}

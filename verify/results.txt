@@ -1,0 +1,26 @@
+== verify_ant_square_clock.py
+Forbidden words: 20; states: 108; edges: 171
+Minimum normalized gain: 109/10000; max abs(g): 7651/2000
+PASS: S(n) <= 730*(9/5)^n for every positive n, by the range proof above.
+
+== replay_ant_square_clock.py
+Forbidden words: 20; states: 108; edges: 171
+Minimum normalized gain: 109/10000; max abs(g): 7651/2000
+1 (0, 1)
+2 (248, 6)
+3 (41376, 17)
+
+== audit.py
+source: /mnt/c/Users/PC/Documents/Codex/2026-11-26/jie/langton-ant-square-bound/verify/verify_ant_square_clock.py
+forbidden words: 20 lengths: [6, 10, 14, 18]
+forbidden words infeasible under both starting axes: OK (brute force validates lengths <= 10)
+states: 108; allowed transitions: 171; min normalized gain: 109/10000 ; max |g|: 7651/2000
+physical sign relation eta*delta = e*t: OK for all 8 cases
+constants: 209/8 identity OK; 1+(5225/4)r^(n-1) <= 730 r^n for n=1..400; range sum n=1..40: OK
+dynamic replay on random n=4,5,6,8,10 trajectories: 1050 in-board steps OK
+  min (50*dF - M): 86467500 (>= 0)
+  observed F range stays inside 209/8*r^(n-1) bound: OK
+exhaustive n=1: in-board transitions 0, max steps 1 (<= 730*(9/5)^n: True)
+exhaustive n=2: in-board transitions 248, max steps 6 (<= 730*(9/5)^n: True)
+exhaustive n=3: in-board transitions 41376, max steps 17 (<= 730*(9/5)^n: True)
+PASS: independent audit of the S(n) <= 730*(9/5)^n certificate
