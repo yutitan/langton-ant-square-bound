@@ -3,6 +3,7 @@ message: "If you use this material, please cite it as below."
 type: software
 title: "大模型的小练习（三）：朗顿蚂蚁在 n×n 棋盘上的逃逸时间上界"
 version: "1.0.0"
+doi: "10.5281/zenodo.24541703"
 date-released: "2026-11-26"
 authors:
   - name: "yutitan"
@@ -32,3 +33,5 @@ notes: >-
   AI-assisted exploration and makes no priority claim. The comparison with
   Etse (MFCS 2026) and Ke's preprint is as stated by the model and was not
   independently checked.
+  Archived at Zenodo under DOI 10.5281/zenodo.24541703 (concept DOI
+  10.5281/zenodo.24541702; release v1.0.0).

@@ -6,6 +6,8 @@
 · **Derived with:** GPT 6.2 Astra (OpenAI Codex, model gpt-6.2-astra),
 independently verified with DeepSeek Harness — see [Provenance](#provenance)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24541703.svg)](https://doi.org/10.5281/zenodo.24541703) · **Archived release:** v1.0.0 (2026-11-26)
+
 > 本仓库是“大模型的小练习”系列的第三篇，是一份个人 AI 使用记录，不是论文，
 > 不作优先权主张。系列第一篇：
 > [Counterexamples to *Written on the Wall II* conjecture #138](https://github.com/yutitan/wowii-conjecture-138)
@@ -101,7 +103,7 @@ n = 1, 2, 3 的精确值（全枚举）为 S(1) = 1, S(2) = 6, S(3) = 17。
       url     = {https://github.com/yutitan/langton-ant-square-bound}
     }
 
-Zenodo 版本 DOI 在 release v1.0.0 归档后补入。
+Zenodo 版本 DOI：10.5281/zenodo.24541703（概念 DOI 10.5281/zenodo.24541702）。
 
 ## Provenance
 

@@ -45,3 +45,9 @@ verify/audit.py 不导入主验证程序，独立完成：
 - 证明未经同行评审；文献对照（Etse，MFCS 2026；Ke 的预印本）按题述引用，
   未独立核实。
 - 不主张优先权：模型与工具足够强，相同或更强的结果可能已被他人独立得到。
+
+## Zenodo 归档
+
+- 记录：https://zenodo.org/records/24541703 ，DOI 10.5281/zenodo.24541703（概念 DOI 10.5281/zenodo.24541702）。
+- 归档文件：langton-ant-square-bound-v1.0.0.zip（27,625 bytes），即 GitHub release v1.0.0 的源码 zip；元数据把 tag v1.0.0 记为 isSupplementTo。
+- 说明：GitHub–Zenodo 的自动集成未能在本仓库上启用（Zenodo 的 release 接收端对本仓库返回 404，仓库未在 Zenodo 侧注册），因此 v1.0.0 记录由 Zenodo API 手动建立；内容与 release 快照一致。
