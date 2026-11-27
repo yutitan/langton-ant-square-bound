@@ -14,7 +14,10 @@ independently verified with DeepSeek Harness — see [Provenance](#provenance)
 > — [DOI 10.5281/zenodo.24540807](https://doi.org/10.5281/zenodo.24540807)；
 > 系列第二篇：
 > [Exact escape time of Langton's ant on three-row boards](https://github.com/yutitan/langton-ant-three-rows)
-> — [DOI 10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968)。
+> — [DOI 10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968)；
+> 系列第四篇：
+> [Reverse-play thresholds for Langton's ant](https://github.com/yutitan/langton-reverse-thresholds)
+> — release v1.0.0（Zenodo DOI 待回填）。
 
 > **Abstract (EN).** We record a computer-assisted proof that Langton's ant on
 > any n×n board escapes within 730·(9/5)^n steps, uniformly over all initial
